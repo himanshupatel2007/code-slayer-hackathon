@@ -1,0 +1,75 @@
+/* Basic Setup */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo { font-size: 1.5rem; font-weight: bold; }
+nav ul { list-style: none; display: flex; gap: 1rem; }
+nav a { color: white; text-decoration: none; }
+
+/* Main Content */
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+/* Job Card Styling */
+.job-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.job-card h3 { margin-top: 0; }
+.job-card .tag {
+    background-color: #e0e0e0;
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+.job-card button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.job-card button:hover { background-color: #218838; }
+
+/* Dashboard Styling */
+.dashboard-section {
+    background-color: white;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+}
+.proposal-card, .sent-proposal-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+.proposal-card .actions { margin-top: 0.5rem; }
+.accept-btn { background-color: #28a745; color: white; border: none; padding: 0.5rem; cursor: pointer; }
+.decline-btn { background-color: #dc3545; color: white; border: none; padding: 0.5rem; cursor: pointer; }
+.status-pending { color: orange; }
+.status-accepted { color: green; }
