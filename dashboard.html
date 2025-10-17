@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Kaam Badla</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">My Dashboard</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Welcome, [User Name]!</h1>
+
+        <section class="dashboard-section">
+            <h2>Incoming Proposals</h2>
+            <div class="proposal-card">
+                <p><strong>Sita G.</strong> wants to fix your 'Leaky Roof' in exchange for 'Help with painting her house'.</p>
+                <div class="actions">
+                    <button class="accept-btn">Accept</button>
+                    <button class="decline-btn">Decline</button>
+                </div>
+            </div>
+             <div class="proposal-card">
+                <p><strong>Vikram S.</strong> offers to 'Build a website' for a payment of ₹8000.</p>
+                <div class="actions">
+                    <button class="accept-btn">Accept</button>
+                    <button class="decline-btn">Decline</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="dashboard-section">
+            <h2>Sent Proposals</h2>
+            <div class="sent-proposal-card">
+                <p>You offered to 'Repair a tractor' for <strong>Ravi P.</strong></p>
+                <span class="status-pending">Status: Pending</span>
+            </div>
+             <div class="sent-proposal-card">
+                <p>You offered to 'Tutor kids in Math' for <strong>Asha T.</strong></p>
+                <span class="status-accepted">Status: Accepted</span>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Rural Labour Exchange</p>
+    </footer>
+
+</body>
+</html>
